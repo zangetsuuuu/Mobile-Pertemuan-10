@@ -32,6 +32,4 @@ public void showMap(View view) {
 
 ### Hasil
 
-<video controls>
-  <source src="video/myapp.mp4" type="video/mp4">
-</video>
+https://github.com/zangetsuuuu/Mobile-Pertemuan-10/assets/115514467/5331905c-13c0-4ae1-a15b-869abf7207a5
