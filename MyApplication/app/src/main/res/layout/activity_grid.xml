@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:background="@color/white">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/hello"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchHelloActivity"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/sianida"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchSianidaActivity"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/count"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchToastActivity"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/two_act"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchTwoActivity"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/alarm"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="createAlarm"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/map"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="showMap"/>
+</GridLayout>
